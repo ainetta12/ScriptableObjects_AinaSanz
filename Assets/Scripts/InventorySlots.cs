@@ -19,7 +19,7 @@ public class InventorySlots : MonoBehaviour
 
     public void INspectItem()
     {
-        if(slotItem != null)
+        if(slotItem != null && inspectionWindow.activeInHierarchy == false)
         {
             deleteButton.onClick.AddListener(RemoveItem);
             closeButton.onClick.AddListener(CloseInspectionWindow);
