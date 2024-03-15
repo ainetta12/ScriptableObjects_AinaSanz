@@ -20,6 +20,8 @@ public class InventorySlots : MonoBehaviour
     {
         if(slotItem != null)
         {
+            deleteButton.onClick.AddListener(RemoveItem);
+            
             inspectionImage.sprite = slotItem.itemSprite;
             inspectionName.text = slotItem.itemName;
             inspectionPrice.text = slotItem.itemPrince.ToString();
@@ -27,19 +29,25 @@ public class InventorySlots : MonoBehaviour
 
             inspectionWindow.SetActive(true);
         }
-    }
 
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
         
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void RemoveItem()
     {
-        
+        if(InventoryManager.instance.weapons[slotNumber] != null)
+        {
+            InventoryManager.instance.weapons[slotNumber] = null;
+            InventoryManager.instance.weaponsNames[slotNumber].text = "Empty";
+            InventoryManager.instance.weaponsSprites [slotNumber].sprite = null;
+        }
+
+        slotItem = null;
+
+        deleteButton.onClick.RemoveListener(RemoveItem);
+        inspectionWindow.SetActive(false);
     }
+
+    
 }

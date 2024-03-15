@@ -555,6 +555,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -681,6 +685,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1313,6 +1321,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1562,6 +1574,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1832,6 +1848,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2195,6 +2215,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2411,6 +2435,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2669,6 +2697,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2809,7 +2841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1866361207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3309,6 +3341,10 @@ PrefabInstance:
       propertyPath: inspectionDescription
       value: 
       objectReference: {fileID: 1038697782}
+    - target: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: m_Text
+      value: Empty
+      objectReference: {fileID: 0}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
