@@ -14,6 +14,7 @@ public class InventorySlots : MonoBehaviour
     public Text inspectionDescription;
 
     public Button deleteButton;
+    public Button closeButton;
 
 
     public void INspectItem()
@@ -21,6 +22,7 @@ public class InventorySlots : MonoBehaviour
         if(slotItem != null)
         {
             deleteButton.onClick.AddListener(RemoveItem);
+            closeButton.onClick.AddListener(CloseInspectionWindow);
             
             inspectionImage.sprite = slotItem.itemSprite;
             inspectionName.text = slotItem.itemName;
@@ -45,6 +47,12 @@ public class InventorySlots : MonoBehaviour
 
         slotItem = null;
 
+        deleteButton.onClick.RemoveListener(RemoveItem);
+        inspectionWindow.SetActive(false);
+    }
+
+    public void CloseInspectionWindow()
+    {
         deleteButton.onClick.RemoveListener(RemoveItem);
         inspectionWindow.SetActive(false);
     }
