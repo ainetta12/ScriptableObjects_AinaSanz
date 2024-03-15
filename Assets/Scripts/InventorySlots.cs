@@ -18,11 +18,11 @@ public class InventorySlots : MonoBehaviour
 
     public void INspectItem()
     {
-        if(slotItem =! null)
+        if(slotItem != null)
         {
             inspectionImage.sprite = slotItem.itemSprite;
             inspectionName.text = slotItem.itemName;
-            inspectionPrice.text = slotItem.itemPrince;
+            inspectionPrice.text = slotItem.itemPrince.ToString();
             inspectionDescription.text = slotItem.itemDescription;
 
             inspectionWindow.SetActive(true);
