@@ -227,7 +227,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 66194306}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1866361206}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &66194306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,6 +531,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -621,6 +657,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -986,6 +1046,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &597444908 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 446389507}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &626086937 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2304109144264322008, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
@@ -1184,6 +1255,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
   m_PrefabInstance: {fileID: 7366253123939996499}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &812798445 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 7366253123939996499}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &885388072 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
@@ -1207,6 +1289,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1297,6 +1403,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
   m_PrefabInstance: {fileID: 886209624}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &886209626 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 886209624}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &983587394 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2304109144264322008, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
@@ -1421,6 +1538,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1667,6 +1808,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1757,6 +1922,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
   m_PrefabInstance: {fileID: 1168340013}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1168340015 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 1168340013}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1249330467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,6 +1992,16 @@ MonoBehaviour:
   - {fileID: 1290447332}
   - {fileID: 1044452042}
   - {fileID: 267675510}
+  WeaponSlots:
+  - {fileID: 812798445}
+  - {fileID: 1504847237}
+  - {fileID: 1523840703}
+  - {fileID: 1714451346}
+  - {fileID: 1976641959}
+  - {fileID: 597444908}
+  - {fileID: 2055949714}
+  - {fileID: 886209626}
+  - {fileID: 1168340015}
 --- !u!4 &1249330469
 Transform:
   m_ObjectHideFlags: 0
@@ -1962,6 +2148,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394281812}
   m_CullTransparentMesh: 1
+--- !u!114 &1504847237 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 442551201}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1523840701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1974,6 +2171,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2064,6 +2285,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
   m_PrefabInstance: {fileID: 1523840701}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1523840703 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 1523840701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1575112825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,6 +2387,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2389,6 +2645,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2479,6 +2759,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
   m_PrefabInstance: {fileID: 1674626077}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1714451346 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 1674626077}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1737874401 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6797008046020817169, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
@@ -2518,7 +2809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1866361207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2791,6 +3082,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975324084}
   m_CullTransparentMesh: 1
+--- !u!114 &1976641959 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 1153908833}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2014160752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2868,6 +3170,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2055949714 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+  m_PrefabInstance: {fileID: 1587344606}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9082012fecf4bae43941eb1715659a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2102710674
@@ -2972,6 +3285,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1644532569}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 1975324086}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 279828368}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1575112827}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 1866361206}
+    - target: {fileID: 3462496216559833682, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 1038697782}
     - target: {fileID: 8892841599223123735, guid: 4aa480d7d1bf4f547bc0f1214db8dd5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
